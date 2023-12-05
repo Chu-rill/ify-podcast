@@ -8,10 +8,11 @@
   src: url(/Ephesis-Regular.ttf);
 }
 body {
-  background-color: color-mix(in srgb, pink, white 10%);
+  /* background-color: color-mix(in srgb, pink, white 10%); */
+  background-color: white;
 }
 header {
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
