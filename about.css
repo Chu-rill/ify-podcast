@@ -9,11 +9,10 @@
 }
 body {
   /* background-color: color-mix(in srgb, pink, white 10%); */
-  background-color: black;
-  color: white;
+  background-color: white;
 }
 header {
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -139,7 +138,6 @@ a::after {
   width: 100vw;
   height: 200px;
   position: relative;
-  color: black;
 }
 .third img {
   object-fit: 100%;
