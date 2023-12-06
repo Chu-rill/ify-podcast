@@ -59,6 +59,25 @@ a::after {
 .links a {
   margin-right: 15px;
 }
+button {
+  width: 50px;
+  height: 20px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+button span {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  /* transition: width 300ms, background-color 300ms, transform 300ms; */
+}
 .title {
   width: 100vw;
   height: 200px;
@@ -157,4 +176,61 @@ a::after {
 }
 .third .content p {
   text-align: center;
+}
+@media(max-width: 450px){
+  body{
+    width: 450px;
+  }
+  .links{
+    display: none;
+  }
+  header h1{
+    font-size: 2rem;
+  }
+  .title-text h2{
+    font-size: 1.2rem;
+    padding: 3px;
+  }
+  button{
+    display: flex;
+    padding-right: 10px;
+  }
+  .first-section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 170px;
+
+  }
+  .first-section .write-up{
+    width: 430px;
+  }
+  .first-section img{
+    width: 430px;
+    padding-right: 0;
+    margin-top: 18px;
+  }
+  .write-up h1{
+    font-size: 1.2rem;
+  }
+  .second-section{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .second-section .write-up{
+    width: 430px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .second-section .write-up h1{
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .second-section img{
+    width: 430px;
+    padding-left: 0;
+  }
 }
