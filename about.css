@@ -228,6 +228,9 @@ button:hover span:nth-child(2) {
     font-size: 1.2rem;
     padding: 3px;
   }
+  .title img{
+    width: 100vw;
+  }
   button{
     display: flex;
     padding-right: 10px;
@@ -236,7 +239,7 @@ button:hover span:nth-child(2) {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin-bottom: 170px;
+    margin-bottom: 2800px;
 
   }
   .first-section .write-up{
@@ -269,5 +272,11 @@ button:hover span:nth-child(2) {
   .second-section img{
     width: 430px;
     padding-left: 0;
+  }
+  .third-section img{
+    width: 100vw;
+  }
+  .third-section {
+    height: 280px;
   }
 }
